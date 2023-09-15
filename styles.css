@@ -1,2 +1,12 @@
 
 /* Your CSS Code here. */
+.navbar {
+	display:flex;
+	list-style-type:none;
+	justify-content:space-evenly;
+	position:sticky;
+}
+.navbar>li>a {
+	text-decoration:none;
+	color:black;
+}
